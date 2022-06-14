@@ -9,17 +9,14 @@
 		{
 
 			$itemClass->newItem(
-
 				$_POST['title'],
 				$_POST['category'],
 				$_POST['owner'],
 				$_POST['price'],
 				$_POST['description'],
 				$_FILES['cover_img']['tmp_name']
-
 			);
 		}
-
 		header ('Location: ../index.php');
 	}
  ?>
